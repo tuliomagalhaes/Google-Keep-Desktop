@@ -1,0 +1,20 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Google Keep",
+    "Mac OSX"
+    "Desktop"
+  ],
+  "author": "Túlio Magalhães",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "electron": "^5.0.4"
+  }
+}
