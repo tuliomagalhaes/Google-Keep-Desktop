@@ -1,6 +1,6 @@
 # Google Keep Desktop App
 
-**Clone and run for a quick way to see Electron in action.**
+## About
 
 This is a minimal Electron application to run the Google Keep in your desktop.
 
