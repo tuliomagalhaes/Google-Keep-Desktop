@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
+  "name": "google-keep-desktop",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A simple desktop application to run google keep",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -9,12 +9,13 @@
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
     "Google Keep",
-    "Mac OSX"
+    "Mac OSX",
     "Desktop"
   ],
   "author": "Túlio Magalhães",
   "license": "Apache-2.0",
   "devDependencies": {
-    "electron": "^5.0.4"
+    "electron": "^5.0.4",
+    "electron-builder": "^20.44.4"
   }
 }
