@@ -10,13 +10,13 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone Tulioh/Google-Keep-Desktop
+git clone https://github.com/Tulioh/Google-Keep-Desktop
 # Go into the repository
-cd electron-quick-start
+cd Google-Keep-Desktop
 # Install dependencies
 npm install
-# Run the app
-npm start
+# Build the App with one of these options (package-mac, package-win, package-linux)
+npm run package-mac
 ```
 
 Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.

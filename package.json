@@ -4,18 +4,23 @@
   "description": "A simple desktop application to run google keep",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=icons/Icon.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --icon=icons/Icon.ico --prune=true --out=release-builds --version-string.CompanyName=\"Tulio Magalhaes\" --version-string.FileDescription=\"Google Keep for Desktop\" --version-string.ProductName=\"Google Keep Desktop\"",
+    "package-linux": "electron-packager . --overwrite --asar=true --platform=linux --arch=x64 --icon=icons/Icon.png --prune=true --out=release-builds"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/Tulioh/Google-Keep-Desktop",
   "keywords": [
     "Google Keep",
     "Mac OSX",
+    "Windows",
+    "Linux",
     "Desktop"
   ],
   "author": "Túlio Magalhães",
   "license": "Apache-2.0",
   "devDependencies": {
     "electron": "^5.0.4",
-    "electron-builder": "^20.44.4"
+    "electron-packager": "^14.0.1"
   }
 }
