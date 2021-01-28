@@ -20,7 +20,7 @@
   "author": "Túlio Magalhães",
   "license": "Apache-2.0",
   "devDependencies": {
-    "electron": "^5.0.4",
+    "electron": "^9.4.0",
     "electron-packager": "^14.0.1"
   }
 }
